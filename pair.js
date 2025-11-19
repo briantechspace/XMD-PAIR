@@ -77,9 +77,9 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "BRAVO~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, TREND-X User!* 👋🏻
+                        let desc = `*Hey there, BRIAN-XD User!* 👋🏻
 
-Thanks for using *TREND-X* — your session has been successfully created!
+Thanks for using *BRIAN-XD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -88,23 +88,23 @@ Thanks for using *TREND-X* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O
+https://whatsapp.com/channel/0029VbC173IDDmFVIhcSOZ0Q
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-git clone https://github.com/trendex2030/TREND-X
+git clone https://github.com/briantechspace/Brian-XD
 
 ——————
 
-> *© Powered by trend-x King*
+> *© Powered by Brian*
 Stay cool and hack smart. ✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TREND-X",
+title: "BRIAN-XD",
 thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O",
+sourceUrl: "https://whatsapp.com/channel/0029VbC173IDDmFVIhcSOZ0Q",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -113,9 +113,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, TREND-X User!* 👋🏻
+                            let desc = `Hey there, BRIAN-XD User!* 👋🏻
 
-Thanks for using *TREND-X* — your session has been successfully created!
+Thanks for using *BRIAN-XD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -124,23 +124,23 @@ Thanks for using *TREND-X* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O
+https://whatsapp.com/channel/0029VbC173IDDmFVIhcSOZ0Q
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/trendex2030/TREND-X
+https://github.com/briantechspace/Brian-XD
 
 ——————
 
-> *© Powered by trendex King*
+> *© Powered by BRIAN*
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TREND-X",
+title: "BRIAN-XD",
 thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O",
+sourceUrl: "https://whatsapp.com/channel/0029VbC173IDDmFVIhcSOZ0Q",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
