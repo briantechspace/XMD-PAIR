@@ -3,7 +3,7 @@
     "description": "Web Session Generator",
     "logo": "https://files.catbox.moe/adymbp.jpg",
     "repository": "https://github.com/trendex2030/TRENDXMD-PAIR",
-    "keywords": ["Bravo","trendex"],
+    "keywords": ["Bravo","trendex", "Brian:"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
